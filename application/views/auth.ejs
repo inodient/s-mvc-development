@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <script>
+  // app secret code : 3061f142ac7873dfd34a2359fa670aa9
+    function fbLogin(){
+      location.href = "https://www.facebook.com/v2.10/dialog/oauth?client_id=755383531310577&redirect_uri=http://localhost:3000/authRedirect";
+    }
+  </script>
+</head>
+<body>
+  <button id="btn_fbLogin" onclick="fbLogin()">Facebook Login</button>
+</body>
+</html>

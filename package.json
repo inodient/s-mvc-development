@@ -6,14 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inodient/s-mvc-development.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inodient/s-mvc-development/issues"
+  },
+  "homepage": "https://github.com/inodient/s-mvc-development#readme",
   "dependencies": {
-    "annotations": "^0.1.340",
-    "bluebird": "^3.5.0",
-    "busboy": "^0.2.14",
-    "mime": "^1.3.4",
-    "multer": "^1.3.0",
-    "promise-mysql": "^3.0.1"
+    "request": "^2.83.0"
   }
 }
