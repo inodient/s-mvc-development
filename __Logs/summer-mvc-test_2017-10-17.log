@@ -1,0 +1,639 @@
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T01:40:03.057Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T01:40:03.071Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T01:40:03.073Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T01:40:03.074Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T01:40:03.076Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T01:40:03.077Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T01:40:03.079Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T01:40:03.081Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T01:40:42.323Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T01:40:42.325Z] REQUEST PATH : /facebookLogin 
+[ERROR] - [\node_modules\summer-mvc\tools\error\errorHandler.js : 18 | logErrors - 2017-10-17T01:40:42.352Z] Error Occured when [/facebookLogin] called.
+Path must be a string. Received undefined
+assertPath (path.js:7:11),Object.join (path.js:468:7),C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\summer-mvc\core\dispatcher\context_dispatcher.js:11:32,Object.exports.dispatching (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\summer-mvc\core\dispatcher\context_dispatcher.js:2:10),app.get (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\summer-mvc\express_was.js:61:21),Layer.handle [as handle_request] (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\express\lib\router\layer.js:95:5),next (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\express\lib\router\route.js:137:13),Route.dispatch (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\express\lib\router\route.js:112:3),Layer.handle [as handle_request] (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\express\lib\router\layer.js:95:5),C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\express\lib\router\index.js:281:22 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T01:40:52.743Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T01:40:52.744Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T01:40:56.223Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T01:40:56.224Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T01:40:56.415Z] AQA4VjPAHGRZrRouamQd1wzlFyDBMK4QarOGBfsLOSfgkdjLJyeDzmKNnJxIuiVemUj0otophuFivIdMAyTb5nWpEWC-JZUti5LjAx1oczU-W_zYvJKacY7oH6FWl6fDrf3aBbBQ7ZosVtJUbkPamC-5jkQnlUzLP-DGGC9Zuw46Lrvda-4v39IjjNcgkxXnMyti87VBstUfjypVq1h5z-iAJXsQAZ6XQ6rtt4YtGMlt0D5fpug3u40QSTX9ThPtCfsYtsqO-apXM3rw3iWh8mrta1bk3OGsaZNCTs0ck_Q_Pir80hrPdYqHTV1AYBBFchopZjRUTmNAu4myjLmGGqyh 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T01:40:57.322Z] {"access_token":"EAAKvBG8NjfEBAHZBwV2MlZAmjI6DNwRCyuyarKwIFoO4HjLOJZALBWXhN6FcNtPQ3te8rElJLXSeMTMByeiChPZAIkZAP60efW8li0E3gll9O3ZBgtAA4ak9d9Y4mgv2Ygs1CBx0zjbZCuJAAZBE7q0wGRXUpXlWjeSVcZCU0HgMrzwZDZD","token_type":"bearer","expires_in":5101281} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T01:42:56.242Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T01:42:56.243Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T01:42:56.450Z] AQA4VjPAHGRZrRouamQd1wzlFyDBMK4QarOGBfsLOSfgkdjLJyeDzmKNnJxIuiVemUj0otophuFivIdMAyTb5nWpEWC-JZUti5LjAx1oczU-W_zYvJKacY7oH6FWl6fDrf3aBbBQ7ZosVtJUbkPamC-5jkQnlUzLP-DGGC9Zuw46Lrvda-4v39IjjNcgkxXnMyti87VBstUfjypVq1h5z-iAJXsQAZ6XQ6rtt4YtGMlt0D5fpug3u40QSTX9ThPtCfsYtsqO-apXM3rw3iWh8mrta1bk3OGsaZNCTs0ck_Q_Pir80hrPdYqHTV1AYBBFchopZjRUTmNAu4myjLmGGqyh 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T01:42:56.638Z] {"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"CyMYI0rhPmZ"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T01:44:06.271Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T01:44:06.272Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T01:44:09.003Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T01:44:09.005Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T01:44:12.124Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T01:44:12.126Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T01:44:12.292Z] AQA8cTKBJcxTwVxmguucrP7Cun7oXXnAZudS0FRnQ_7e5bfSDkxyVuGDpp_H8K1l0SeJfYvwScU4ycbKtRWV-nQC1np9I8F-Rbd2ux6CfppudWzNnVDlU1Siz9PBST-pkAewfVHaNxoVOZtzzU7zSgH_1K3NdeDhZoLkCACnGnquWCeUhGTe2epE3DH1l_DSLsk4km8MWK2BgGZNy0Orncpi7vhFGuXuJ5qhph7alvAG-4p5rcn8zuwRlq8XKdVv7A7Pgq0S_u3mfbvRCbiwvsheylpHawhZ3PqKrg366Odb9D3sMg91bWI2JKJK7L6tA-YYY1Ixo2xMxWOrtp1Xd-ww 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T01:44:12.606Z] {"access_token":"EAAKvBG8NjfEBAG8fom7LAXZAcUHuqgjK6PfnOheZBlP8td83LaNwxocf9wJAsTaZCFsJcTixPp7wAvZBwCkZAnZCMI19kUMx18wJmHffzmzxbpjVnfv3BvdDLxioZAFZBjoYu0nFXtaIgARMCVKodjw66jZABiVufd3YgV7UOhx1pZCQZDZD","token_type":"bearer","expires_in":5101085} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T01:46:09.875Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T01:46:09.894Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T01:46:09.895Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T01:46:09.896Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T01:46:09.897Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T01:46:09.897Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T01:46:09.897Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T01:46:09.898Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T01:46:13.473Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T01:46:13.474Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T01:46:13.722Z] AQA8cTKBJcxTwVxmguucrP7Cun7oXXnAZudS0FRnQ_7e5bfSDkxyVuGDpp_H8K1l0SeJfYvwScU4ycbKtRWV-nQC1np9I8F-Rbd2ux6CfppudWzNnVDlU1Siz9PBST-pkAewfVHaNxoVOZtzzU7zSgH_1K3NdeDhZoLkCACnGnquWCeUhGTe2epE3DH1l_DSLsk4km8MWK2BgGZNy0Orncpi7vhFGuXuJ5qhph7alvAG-4p5rcn8zuwRlq8XKdVv7A7Pgq0S_u3mfbvRCbiwvsheylpHawhZ3PqKrg366Odb9D3sMg91bWI2JKJK7L6tA-YYY1Ixo2xMxWOrtp1Xd-ww 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T01:46:15.000Z] {"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"FaDTFHyWaeI"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T01:46:26.856Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T01:46:26.858Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T01:46:27.031Z] AQA8cTKBJcxTwVxmguucrP7Cun7oXXnAZudS0FRnQ_7e5bfSDkxyVuGDpp_H8K1l0SeJfYvwScU4ycbKtRWV-nQC1np9I8F-Rbd2ux6CfppudWzNnVDlU1Siz9PBST-pkAewfVHaNxoVOZtzzU7zSgH_1K3NdeDhZoLkCACnGnquWCeUhGTe2epE3DH1l_DSLsk4km8MWK2BgGZNy0Orncpi7vhFGuXuJ5qhph7alvAG-4p5rcn8zuwRlq8XKdVv7A7Pgq0S_u3mfbvRCbiwvsheylpHawhZ3PqKrg366Odb9D3sMg91bWI2JKJK7L6tA-YYY1Ixo2xMxWOrtp1Xd-ww 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T01:46:27.191Z] {"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"FwBP0crFSAN"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T01:46:28.358Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T01:46:28.359Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T01:46:28.533Z] AQA8cTKBJcxTwVxmguucrP7Cun7oXXnAZudS0FRnQ_7e5bfSDkxyVuGDpp_H8K1l0SeJfYvwScU4ycbKtRWV-nQC1np9I8F-Rbd2ux6CfppudWzNnVDlU1Siz9PBST-pkAewfVHaNxoVOZtzzU7zSgH_1K3NdeDhZoLkCACnGnquWCeUhGTe2epE3DH1l_DSLsk4km8MWK2BgGZNy0Orncpi7vhFGuXuJ5qhph7alvAG-4p5rcn8zuwRlq8XKdVv7A7Pgq0S_u3mfbvRCbiwvsheylpHawhZ3PqKrg366Odb9D3sMg91bWI2JKJK7L6tA-YYY1Ixo2xMxWOrtp1Xd-ww 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T01:46:28.731Z] {"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"DMYftb40y3M"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T01:48:28.389Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T01:48:28.391Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T01:48:28.576Z] AQA8cTKBJcxTwVxmguucrP7Cun7oXXnAZudS0FRnQ_7e5bfSDkxyVuGDpp_H8K1l0SeJfYvwScU4ycbKtRWV-nQC1np9I8F-Rbd2ux6CfppudWzNnVDlU1Siz9PBST-pkAewfVHaNxoVOZtzzU7zSgH_1K3NdeDhZoLkCACnGnquWCeUhGTe2epE3DH1l_DSLsk4km8MWK2BgGZNy0Orncpi7vhFGuXuJ5qhph7alvAG-4p5rcn8zuwRlq8XKdVv7A7Pgq0S_u3mfbvRCbiwvsheylpHawhZ3PqKrg366Odb9D3sMg91bWI2JKJK7L6tA-YYY1Ixo2xMxWOrtp1Xd-ww 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T01:48:28.886Z] {"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"AtxSopg0TDi"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T01:50:58.403Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T01:50:58.404Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T01:50:58.618Z] AQA8cTKBJcxTwVxmguucrP7Cun7oXXnAZudS0FRnQ_7e5bfSDkxyVuGDpp_H8K1l0SeJfYvwScU4ycbKtRWV-nQC1np9I8F-Rbd2ux6CfppudWzNnVDlU1Siz9PBST-pkAewfVHaNxoVOZtzzU7zSgH_1K3NdeDhZoLkCACnGnquWCeUhGTe2epE3DH1l_DSLsk4km8MWK2BgGZNy0Orncpi7vhFGuXuJ5qhph7alvAG-4p5rcn8zuwRlq8XKdVv7A7Pgq0S_u3mfbvRCbiwvsheylpHawhZ3PqKrg366Odb9D3sMg91bWI2JKJK7L6tA-YYY1Ixo2xMxWOrtp1Xd-ww 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T01:50:58.822Z] {"error":{"message":"This authorization code has expired.","type":"OAuthException","code":100,"fbtrace_id":"Fxsp9x63ZIA"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T01:53:58.450Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T01:53:58.452Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T01:53:58.617Z] AQA8cTKBJcxTwVxmguucrP7Cun7oXXnAZudS0FRnQ_7e5bfSDkxyVuGDpp_H8K1l0SeJfYvwScU4ycbKtRWV-nQC1np9I8F-Rbd2ux6CfppudWzNnVDlU1Siz9PBST-pkAewfVHaNxoVOZtzzU7zSgH_1K3NdeDhZoLkCACnGnquWCeUhGTe2epE3DH1l_DSLsk4km8MWK2BgGZNy0Orncpi7vhFGuXuJ5qhph7alvAG-4p5rcn8zuwRlq8XKdVv7A7Pgq0S_u3mfbvRCbiwvsheylpHawhZ3PqKrg366Odb9D3sMg91bWI2JKJK7L6tA-YYY1Ixo2xMxWOrtp1Xd-ww 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T01:53:58.932Z] {"error":{"message":"This authorization code has expired.","type":"OAuthException","code":100,"fbtrace_id":"AwYN\/9MGG\/e"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:00:58.469Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:00:58.470Z] REQUEST PATH : /authRedirect 
+[ERROR] - [\node_modules\summer-mvc\tools\error\errorHandler.js : 18 | logErrors - 2017-10-17T02:00:58.474Z] Error Occured when [/authRedirect] called.
+connect EHOSTUNREACH 104.199.217.31:3306
+Object.exports._errnoException (util.js:1026:11),exports._exceptionWithHostPort (util.js:1049:20),TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14) 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:21:19.229Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:21:19.233Z] REQUEST PATH : /authRedirect 
+[ERROR] - [\node_modules\summer-mvc\tools\error\errorHandler.js : 18 | logErrors - 2017-10-17T02:21:19.239Z] Error Occured when [/authRedirect] called.
+connect EHOSTUNREACH 104.199.217.31:3306
+Object.exports._errnoException (util.js:1026:11),exports._exceptionWithHostPort (util.js:1049:20),TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14) 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:29:23.350Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:29:23.352Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:29:28.780Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:29:28.780Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:29:28.978Z] AQDmC-xXgRt4IyUi7QVmdj-Sn8acqgcy5oneR61Qw3Tf4kI_gWnbQTJiWdLpY___g2uT7rTiduBietfJi3Sz0zW9bXiakOYpnLCB-pzFoZWo8sbAhoHkSzwqnAeLq28e2RA3IQGzMsaItAxoNOOQ_br3q1erfMwyhRYNKIFo_eMQT7R6d6yO4lpFVURfQHCDnKTLA3_fjMJ-gmLF59T0Aat1nbcBCOZvh6XgxAhgi3AaC_TH5D8MjOTzjSDuXOYVsllFvrsMAq5-Jws4mpbo3xx1tCAt4cgAYobcSVcLzy_GcLVkl6_G1iBl2mpQs0D9IrY9ycKHmfsmb04ry6uJ8zKp 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:29:29.259Z] {"access_token":"EAAKvBG8NjfEBAOz4zvD1aCiJPmcHuFkiOxZChJMFucSAgHaZAbnCPCTSjI0TXcKxqh5gP1o2X059WG9WOe1ukaZBxQxpSKKJoY3zGJCZCkc94SVNUJ7BXe0IqV6hotZBbaNfzN0ZABto2dyr7iFpH8m9QCUM8QywvLhocxTXZCbNAZDZD","token_type":"bearer","expires_in":5098369} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:31:28.842Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:31:28.843Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:31:29.017Z] AQDmC-xXgRt4IyUi7QVmdj-Sn8acqgcy5oneR61Qw3Tf4kI_gWnbQTJiWdLpY___g2uT7rTiduBietfJi3Sz0zW9bXiakOYpnLCB-pzFoZWo8sbAhoHkSzwqnAeLq28e2RA3IQGzMsaItAxoNOOQ_br3q1erfMwyhRYNKIFo_eMQT7R6d6yO4lpFVURfQHCDnKTLA3_fjMJ-gmLF59T0Aat1nbcBCOZvh6XgxAhgi3AaC_TH5D8MjOTzjSDuXOYVsllFvrsMAq5-Jws4mpbo3xx1tCAt4cgAYobcSVcLzy_GcLVkl6_G1iBl2mpQs0D9IrY9ycKHmfsmb04ry6uJ8zKp 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:31:29.309Z] {"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"AgKYe1e\/U3x"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:32:39.199Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:32:39.217Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:32:39.218Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:32:39.219Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:32:39.219Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:32:39.219Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:32:39.220Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:32:39.220Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:32:39.258Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:32:39.260Z] REQUEST PATH : /authRedirect 
+[ERROR] - [\node_modules\summer-mvc\tools\error\errorHandler.js : 18 | logErrors - 2017-10-17T02:32:39.277Z] Error Occured when [/authRedirect] called.
+Invalid or unexpected token
+Object.exports.runInThisContext (vm.js:76:16),Module._compile (module.js:542:28),Object.Module._extensions..js (module.js:579:10),Module.load (module.js:487:32),tryModuleLoad (module.js:446:12),Function.Module._load (module.js:438:3),Module.require (module.js:497:17),require (internal/module.js:20:19),C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\summer-mvc\core\dispatcher\context_dispatcher.js:84:21,getController (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\summer-mvc\core\dispatcher\context_dispatcher.js:81:9) 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:33:24.346Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:33:24.370Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:33:24.371Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:33:24.371Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:33:24.373Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:33:24.373Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:33:24.373Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:33:24.374Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:33:43.472Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:33:43.497Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:33:43.498Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:33:43.498Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:33:43.499Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:33:43.499Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:33:43.499Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:33:43.500Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:35:02.991Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:03.032Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:03.037Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:03.038Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:03.039Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:03.039Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:03.039Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:03.039Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:35:35.945Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:35.966Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:35.968Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:35.968Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:35.969Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:35.970Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:35.973Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:35.974Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:35:51.523Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:51.544Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:51.544Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:51.545Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:51.545Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:51.546Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:51.546Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:35:51.546Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:35:58.411Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:35:58.413Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:35:58.586Z] AQDmC-xXgRt4IyUi7QVmdj-Sn8acqgcy5oneR61Qw3Tf4kI_gWnbQTJiWdLpY___g2uT7rTiduBietfJi3Sz0zW9bXiakOYpnLCB-pzFoZWo8sbAhoHkSzwqnAeLq28e2RA3IQGzMsaItAxoNOOQ_br3q1erfMwyhRYNKIFo_eMQT7R6d6yO4lpFVURfQHCDnKTLA3_fjMJ-gmLF59T0Aat1nbcBCOZvh6XgxAhgi3AaC_TH5D8MjOTzjSDuXOYVsllFvrsMAq5-Jws4mpbo3xx1tCAt4cgAYobcSVcLzy_GcLVkl6_G1iBl2mpQs0D9IrY9ycKHmfsmb04ry6uJ8zKp 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:35:59.628Z] {"error":{"message":"This authorization code has expired.","type":"OAuthException","code":100,"fbtrace_id":"BW6Tt8PJ6jm"}} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:35:59.895Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"BAmhGzT2bUS"}} 
+[ERROR] - [\node_modules\summer-mvc\tools\error\errorHandler.js : 18 | logErrors - 2017-10-17T02:35:59.909Z] Error Occured when [/authRedirect] called.
+C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\application\views\index.ejs:177
+    175| 									<form class="form-inline" action="/getData" method="get">
+    176| 										<select class="form-control query_select" id="queryId">
+ >> 177| 											<% for( var i=0; i<queries.length; i++ ){ %>
+    178| 												<option value=<%= queries[i].id %> ><%= queries[i].id %></option>
+    179| 											<% } %>
+    180| 										</select>
+
+queries is not defined
+eval (eval at compile (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\ejs\lib\ejs.js:549:12), <anonymous>:11:24),returnedFn (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\ejs\lib\ejs.js:580:17),tryHandleCache (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\ejs\lib\ejs.js:223:34),View.exports.renderFile [as engine] (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\ejs\lib\ejs.js:437:10),View.render (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\express\lib\view.js:135:8),tryRender (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\express\lib\application.js:640:10),EventEmitter.render (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\express\lib\application.js:592:3),ServerResponse.render (C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\express\lib\response.js:1008:7),C:\__Repo.Workspace\12. INO_Nodejs\s-mvc-development\node_modules\summer-mvc\express_was.js:78:15,process._tickCallback (internal/process/next_tick.js:103:7) 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:36:33.545Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:36:33.562Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:36:33.564Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:36:33.565Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:36:33.566Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:36:33.566Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:36:33.567Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:36:33.567Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:36:37.011Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:36:37.012Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:36:37.246Z] AQDmC-xXgRt4IyUi7QVmdj-Sn8acqgcy5oneR61Qw3Tf4kI_gWnbQTJiWdLpY___g2uT7rTiduBietfJi3Sz0zW9bXiakOYpnLCB-pzFoZWo8sbAhoHkSzwqnAeLq28e2RA3IQGzMsaItAxoNOOQ_br3q1erfMwyhRYNKIFo_eMQT7R6d6yO4lpFVURfQHCDnKTLA3_fjMJ-gmLF59T0Aat1nbcBCOZvh6XgxAhgi3AaC_TH5D8MjOTzjSDuXOYVsllFvrsMAq5-Jws4mpbo3xx1tCAt4cgAYobcSVcLzy_GcLVkl6_G1iBl2mpQs0D9IrY9ycKHmfsmb04ry6uJ8zKp 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:36:38.490Z] {"error":{"message":"This authorization code has expired.","type":"OAuthException","code":100,"fbtrace_id":"EX5Zg7eTlf4"}} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:36:38.761Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"Aerzne3+BhS"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:37:28.121Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:37:28.123Z] REQUEST PATH : / 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:37:52.995Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:37:52.996Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:37:55.870Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:37:55.872Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:37:56.072Z] AQCqoE6IGJWpcYf_MycPWyTMK7LfiDVmwoa81_2xPUZE8p7-PXYqIZuNCTMjrrX0PENvrd5sOyTgB25cOEt9j5QN53hsqP2Egm3C72D4YRNsn1__pKzoDbsPXQ5BiEKT6Uf9eR8VOo5LUIWVAdMgTjW_KvVJyQ9xI_w0TFZp8Zie4BM7A9cAXK5Nr4h2UxQn2GPM4PhsQUUr-kDQ2GcP9yWy7p2GUGXGFP5poPmZNlQ6sEFXlMUJMs7BwZ5j41A0PILXhRS3Yo_zqyqkmvHJmabzmgSUKM1olj483dRB1V06oVP507SvMEfGvHupbjoaTyvomUmRRiNdsImvDhssvLhf 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:37:56.299Z] {"access_token":"EAAKvBG8NjfEBAOEBZAPxHt72NPzMLvfI6ZACG5fvL879TDJZAZALShXDLNVGgyhvm1mSLKCDuZB4SjpSrmrvlYgRMpQqtZAZCiTVpFYqR0Tj0thN9lL3dLSpusO7lCAeGywOJpCxnLY1F2kIkIGrUvdMlVglMNDH5scgf22liaT4QZDZD","token_type":"bearer","expires_in":5097862} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:37:56.474Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"CSIJzZ+wsHM"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:44:21.498Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:44:21.516Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:44:21.518Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:44:21.518Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:44:21.519Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:44:21.519Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:44:21.519Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:44:21.520Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:44:30.407Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:44:30.428Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:44:30.429Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:44:30.429Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:44:30.430Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:44:30.430Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:44:30.431Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:44:30.431Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:44:49.886Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:44:49.888Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:44:55.412Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:44:55.414Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:44:55.586Z] AQCR4cSML4fNv4vWQHMI6PO1NYt6fPrn-5WxBVV50miWrxdtZj01_yZO-0gvH5k-07D1oeEqijyfrGbCmp02yIV-E_b3xJHJKYwB6HQFBLZtvYNx4lkLdAFdzM21Ql9gs4ZXjmdV2X__21c8M2DEJoS-b7BUrD622Lz84I41tKNjW-VBQnF0fSOVAx4-pvpizs4TpPI4veBsg0G1h8l4-4-RaW82pgr4PAbgZqbl8AvdLXwDD6n8iN_MjlGh3aa_3ZubH9iLg0Es6lX0llVJHwSse8L4OIGTdw_h3LUoJFBuRcEcW7A5KoWT3zUTd6Kr_1vV0jrmM6Luuv4tL3O0Y1w_ 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:44:56.837Z] {"access_token":"EAAKvBG8NjfEBAFh2cOGEOqlInzEwWzkB59BGcZCeZBxhNvQvbXEfCIWR9KEgrMZCLMROTiW00sGmrzWq5LsZArhl57B324H4ZB2EZBclW6BxKUZASFYmNJaqY54btatURnIRsLwcWQNN7HwKJjtZCMCZCrmoeadb57tsZCxvrj9GarTQZDZD","token_type":"bearer","expires_in":5183998} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:44:57.135Z] {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:46:55.432Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:46:55.435Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:46:55.617Z] AQCR4cSML4fNv4vWQHMI6PO1NYt6fPrn-5WxBVV50miWrxdtZj01_yZO-0gvH5k-07D1oeEqijyfrGbCmp02yIV-E_b3xJHJKYwB6HQFBLZtvYNx4lkLdAFdzM21Ql9gs4ZXjmdV2X__21c8M2DEJoS-b7BUrD622Lz84I41tKNjW-VBQnF0fSOVAx4-pvpizs4TpPI4veBsg0G1h8l4-4-RaW82pgr4PAbgZqbl8AvdLXwDD6n8iN_MjlGh3aa_3ZubH9iLg0Es6lX0llVJHwSse8L4OIGTdw_h3LUoJFBuRcEcW7A5KoWT3zUTd6Kr_1vV0jrmM6Luuv4tL3O0Y1w_ 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:46:55.820Z] {"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"EllE1Xf4\/To"}} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:46:55.976Z] {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:48:12.262Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:48:12.281Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:48:12.282Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:48:12.282Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:48:12.283Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:48:12.283Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:48:12.283Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:48:12.284Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:48:12.374Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:48:12.376Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:48:12.551Z] AQCR4cSML4fNv4vWQHMI6PO1NYt6fPrn-5WxBVV50miWrxdtZj01_yZO-0gvH5k-07D1oeEqijyfrGbCmp02yIV-E_b3xJHJKYwB6HQFBLZtvYNx4lkLdAFdzM21Ql9gs4ZXjmdV2X__21c8M2DEJoS-b7BUrD622Lz84I41tKNjW-VBQnF0fSOVAx4-pvpizs4TpPI4veBsg0G1h8l4-4-RaW82pgr4PAbgZqbl8AvdLXwDD6n8iN_MjlGh3aa_3ZubH9iLg0Es6lX0llVJHwSse8L4OIGTdw_h3LUoJFBuRcEcW7A5KoWT3zUTd6Kr_1vV0jrmM6Luuv4tL3O0Y1w_ 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:48:13.777Z] authCode {"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"DbFik51iDJm"}} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:48:14.049Z] app_access_token {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:48:38.028Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:48:38.048Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:48:38.049Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:48:38.050Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:48:38.050Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:48:38.051Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:48:38.051Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:48:38.051Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:48:41.352Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:48:41.353Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:48:41.579Z] AQCR4cSML4fNv4vWQHMI6PO1NYt6fPrn-5WxBVV50miWrxdtZj01_yZO-0gvH5k-07D1oeEqijyfrGbCmp02yIV-E_b3xJHJKYwB6HQFBLZtvYNx4lkLdAFdzM21Ql9gs4ZXjmdV2X__21c8M2DEJoS-b7BUrD622Lz84I41tKNjW-VBQnF0fSOVAx4-pvpizs4TpPI4veBsg0G1h8l4-4-RaW82pgr4PAbgZqbl8AvdLXwDD6n8iN_MjlGh3aa_3ZubH9iLg0Es6lX0llVJHwSse8L4OIGTdw_h3LUoJFBuRcEcW7A5KoWT3zUTd6Kr_1vV0jrmM6Luuv4tL3O0Y1w_ 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:48:42.930Z] authCode {"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"A3dthmP\/pyW"}} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:48:43.200Z] app_access_token {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[DEBUG] - [\application\controllers\controller_auth.js : 24 | ANONYMOUS_FUNC - 2017-10-17T02:48:43.481Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"BJDPl90+zc+"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:49:03.220Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:03.254Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:03.255Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:03.255Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:03.256Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:03.256Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:03.257Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:03.257Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:49:20.448Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:20.475Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:20.486Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:20.493Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:20.497Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:20.498Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:20.499Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:20.499Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:49:27.847Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:27.876Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:27.877Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:27.877Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:27.878Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:27.878Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:27.878Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:49:27.879Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:49:30.967Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:49:30.968Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:49:31.177Z] AQCR4cSML4fNv4vWQHMI6PO1NYt6fPrn-5WxBVV50miWrxdtZj01_yZO-0gvH5k-07D1oeEqijyfrGbCmp02yIV-E_b3xJHJKYwB6HQFBLZtvYNx4lkLdAFdzM21Ql9gs4ZXjmdV2X__21c8M2DEJoS-b7BUrD622Lz84I41tKNjW-VBQnF0fSOVAx4-pvpizs4TpPI4veBsg0G1h8l4-4-RaW82pgr4PAbgZqbl8AvdLXwDD6n8iN_MjlGh3aa_3ZubH9iLg0Es6lX0llVJHwSse8L4OIGTdw_h3LUoJFBuRcEcW7A5KoWT3zUTd6Kr_1vV0jrmM6Luuv4tL3O0Y1w_ 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:49:33.005Z] authCode {"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"FcrHW7xuxZQ"}} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:49:33.282Z] app_access_token {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[DEBUG] - [\application\controllers\controller_auth.js : 26 | ANONYMOUS_FUNC - 2017-10-17T02:49:33.574Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"Et8C3jMvAmH"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:49:38.913Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:49:38.914Z] REQUEST PATH : / 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:49:42.936Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:49:42.938Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:49:45.399Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:49:45.400Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:49:45.581Z] AQBRRY1dl5-fkr89v2IGA5EnEMuVSNUJDu_TfOnPkzBHPD8eESAJcChgJYkCxCZrYNni2T5aCDEyJx_27WBXGrPuOSq8HxWOgXVXc2u_ZMON_f6PcWQubzs4xlvrBxO9uT83OX31obUfJvzrWubwHwfgEK199AOLRCVFWiJsfjd6X4ILCNLKBQ_NaZ4cs-i0YZGo_9A5DVVv3Ioav6H2IgOVsZqPGvjzOuK-KXNiycnRoUpZW0Yb_lUHxljhtWxOhlJb6dqHbSNzWHYoqYm0WGuHZxIfcECUNLkAeUOI-6tPJotN-RgNBULYvSMpO6KXoeSbpzA1O9YhHuxzpnjI5qZW 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:49:45.881Z] authCode {"access_token":"EAAKvBG8NjfEBAOCeFqnZCj1MbE7f33yFAYkVqDpBZBnGXRHekfuW5QdzIwE79WoZBE04AV7betTVIIGFoo57CeBrpcUvzPjuTRhgDRH9W8qNZCJ4rmKjFBaCbVeISLokO4IeNxeOgus38rkYKnc4IyVhIAoZCqd88uJgbSFZBJ2QZDZD","token_type":"bearer","expires_in":5183709} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:49:46.168Z] app_access_token {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[DEBUG] - [\application\controllers\controller_auth.js : 26 | ANONYMOUS_FUNC - 2017-10-17T02:49:46.435Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"C2eTCQSjXEQ"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:51:07.038Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:51:07.060Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:51:07.061Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:51:07.062Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:51:07.062Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:51:07.063Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:51:07.063Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:51:07.064Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:51:18.642Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:51:18.681Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:51:18.682Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:51:18.683Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:51:18.684Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:51:18.684Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:51:18.685Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:51:18.685Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:51:29.151Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:51:29.151Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:51:30.980Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:51:30.982Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:51:31.177Z] AQBkr0SqJN11yCjK2j9q7rfBxUc8B9lxTzhRgURxxjLYOu5Z6Ocpp5T8FbbwIUVubqUQTXUie2zT-wDFpTvLn2CXmfGrlQc4Meif3JcvxDxy4_15kI1C1-mwY-gwqd8Eb5-dM84PhXnUHVr5OMt4rqr7blf12U0TL5exVmt1nphVs2RGFIyGYQVJoVK2999HoyVWkvYuqbCxuP2slgCQXJ4cfrP74OJsDy8Arw8nz3ST05U0Qpt4GHwuXdnMNM0ZktC0GuNPRnXg_HE09i8xowBIBSklcZGLLQ2Gr2FHOFJa3GNIiYTR2l-Pnz5Pl50tdTvSEzv0K2vTa3Lx4Lfzirbd 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:51:32.085Z] authCode {"access_token":"EAAKvBG8NjfEBAPubwZBmfBCxbygtbiRn1rPbive6jFv3dZBUOrD1F8iyToxpmdla8ZBmYUpkJTmvHG7MQZAfhekZBQn5pdZAj9bTHTXPQrRX8MZCzqrVThTKbm6jATmPwI0NB8YZCZA5vCaRQ4Kp9hRzAO1ZBaDJE1KZCTq9SSuHTrNKwZDZD","token_type":"bearer","expires_in":5183603} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:51:32.381Z] app_access_token {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[DEBUG] - [\application\controllers\controller_auth.js : 26 | ANONYMOUS_FUNC - 2017-10-17T02:51:32.686Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"HiDER7dqL6\/"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:52:18.814Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:52:18.816Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:52:18.985Z] AQBh3_Qgy35DLhN-uyDLjjNWttcH8v0x1J5QNfWd_iuKuw7U1B7T9qbXCuBJSi9Fv5MtAG9DZw0zwjJYGWYfOohPC1Q6LKUjbOOIEjYyA9jt5RDghmifi8cnFimgWco1Y4lO_NGJaYZi_m17Rpg3bpGqYoXVjClKnDGJcIee0785qTGRw_fVSRu7SHwqknHjgL9aF_HdnmryD3Ch0ZiCX7w3YpO8hCuY-aBSanZcr1ReFJWREdJScp51tQbabCFt_mKLggyvoTDqCXL1IFn2LquCTc6ZorwRm71Lpv6J94HikVuNEzbJtE6SctRgaOEhUdNFvqbqt-RB8Hfb3ap4IyDx 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:52:19.295Z] authCode {"access_token":"EAAKvBG8NjfEBAE7H2TiQwLSHLsG97kFaPm9mH5vX7qzoHos0uz3Ba0L6dTZAjZB83MVyO9hlsVyov9XAPRbdZByMaFiBWNudUCZC2gVlSHwIunaRInm57DOcnkZBWhdjlpqj1cEZAld3pEnhJKO4RZAO2iXZAXSnCZBDrEwNqZAgUwRQZDZD","token_type":"bearer","expires_in":5183556} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:52:19.583Z] app_access_token {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[DEBUG] - [\application\controllers\controller_auth.js : 26 | ANONYMOUS_FUNC - 2017-10-17T02:52:19.879Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"CE5EMVjBCgN"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:55:00.013Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:55:00.016Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:55:00.209Z] AQBh3_Qgy35DLhN-uyDLjjNWttcH8v0x1J5QNfWd_iuKuw7U1B7T9qbXCuBJSi9Fv5MtAG9DZw0zwjJYGWYfOohPC1Q6LKUjbOOIEjYyA9jt5RDghmifi8cnFimgWco1Y4lO_NGJaYZi_m17Rpg3bpGqYoXVjClKnDGJcIee0785qTGRw_fVSRu7SHwqknHjgL9aF_HdnmryD3Ch0ZiCX7w3YpO8hCuY-aBSanZcr1ReFJWREdJScp51tQbabCFt_mKLggyvoTDqCXL1IFn2LquCTc6ZorwRm71Lpv6J94HikVuNEzbJtE6SctRgaOEhUdNFvqbqt-RB8Hfb3ap4IyDx 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:55:00.487Z] authCode {"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"BsaZCYpX\/N8"}} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:55:00.770Z] app_access_token {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[DEBUG] - [\application\controllers\controller_auth.js : 26 | ANONYMOUS_FUNC - 2017-10-17T02:55:01.071Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"CAru5x27q33"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:55:16.883Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:55:16.885Z] REQUEST PATH : / 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:55:21.247Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:55:21.248Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:55:25.476Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:55:25.478Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:55:25.680Z] AQBg_qRsDwlgDLSwB_e_1jiB2JrqOgeGgiks7HRJwqSO5OFdZazsrIKr_Cu1FQC8IQAK5piG58J1KnyVSoBFBInB5pJmDT2pEIFZ17u68jHJ0bVEVtWHesg-l34MZSP_EULVpBLiJ0ohUjzhZRkCERFeo5AArq7wOvfONETcVzWgXdQ6y39awASWQvyoktnsf99d6b9fL4FFZk6tcgk9qeRapHA2N_bzIzjGJKwyuLa96E2dyLORdU45zjzurzZNfbtQqZxKefndNkT2Nk4k7g22YTx2Asf3Q1-PRc28pxw83m_mvvnXWr92J3FeylI_e0acznkrPHQ__h3SdmbAAo2C 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:55:25.970Z] authCode {"access_token":"EAAKvBG8NjfEBAApOYEQNsYf0sgaupdwzcCMKX2rBeF7fp0lfaTvxxsJeCTAZBVz0flP2yyVXHKHKnubrohTZBP1iQ3kWGpICGmtxHvOQj5F2DkbiAguGyUmZCbh4keqoWUGGmiihn2KVRK2VJKYzMTzdRf9DY2dZBWsZCZCZAf3EQZDZD","token_type":"bearer","expires_in":5183369} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:55:26.241Z] app_access_token {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[DEBUG] - [\application\controllers\controller_auth.js : 26 | ANONYMOUS_FUNC - 2017-10-17T02:55:26.529Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"ACXIgqZmAFm"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:56:17.698Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:56:17.699Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:56:24.824Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:56:24.827Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:56:24.996Z] AQCBBFEBVyUCemGjjIhMTYUNTAOUuSRLgNmjA52iKWvBv9XL-qe43uadcx2GpQ--5pU0p8Pf3Xmld0Id3a5hVRPaDaPB4Nl59wDQvh5zBv9LMTo4H1SJum2asYfgA2KSHygS_sPaaYNDmBWb7WJuPstYH_5Ivh5euiHDx1fIkFwKgkCxNQmPbo95byyg65IS7P-EhVmKvQ6eV17-OfZV2JB3qTEWrfUvw1HVfIuROydG6MVblUI9KSXGSOfrQHAezw3BRCZ6LgLc4cT9cuWJrpnDctLiiQv-59Sm_Ma2EaT7ZmQqR5DhITwPEcM0YJTdka4CewspPHluMAX4n8Jo0_yy 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:56:25.169Z] authCode {"access_token":"EAAKvBG8NjfEBAAiGMFm627m5fQynXSMRU49h5t17QIBubcL2oVEYaVceQSWx93y4ia6O8AY7tMEOASyvGXXYHxttvBvZCtZAWp3PrzajZBMeeeKMUB2teTBPPtEkR0OAwpVJ0JjZCdhPtxJQeUZBMZBHPzXb1iarZAZCVOG93swJtgZDZD","token_type":"bearer","expires_in":5183310} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:56:25.314Z] app_access_token {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[DEBUG] - [\application\controllers\controller_auth.js : 26 | ANONYMOUS_FUNC - 2017-10-17T02:56:25.571Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"GxAurHNxafw"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T02:56:53.281Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:56:53.305Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:56:53.306Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:56:53.307Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:56:53.307Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:56:53.308Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:56:53.310Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T02:56:53.311Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:57:19.118Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:57:19.119Z] REQUEST PATH : / 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:57:24.006Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:57:24.008Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T02:57:28.455Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T02:57:28.457Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T02:57:28.629Z] AQC1yqqPTq94ib18mk79Z11hPdnYLW481cI2Wgzvbc-OBJ285aekAShs1iU-QeKn4lrflrkENOOWbl4c8woE-tA6bl9jNNLl0J8N_r4Bn2-TDBDGpvqUDS7gnrQmGGdUbH1sbXwu4cHjzHPOh8peUDea3ewDw8qG9KBXj9ZKwISH8YBJ3ky0TGqOEMM5UadQ7rRedDSpX3EBENf4k0HtE3ChOwBieFuh3Sd8ZWIX-fdkbEAgHy9WhQwiYWrQTHUyeZjcVKV0KW-6-bS3NLHqHpvxz3iU04HviPwpVzQi0wq8U0T4A020YulNfLC1YV7H7HL-UseN5sER9hyTx0beR0P1 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T02:57:29.829Z] authCode {"access_token":"EAAKvBG8NjfEBAE838p21sQITwID8coXnMk65jcjktZBtj7MnqjcU7wlkZC3TLmdCghXae7SWl7G5rIhZCuQdJS1X3knDEGLBwt5aRRpm4dy1VtgmcKTIahj73HazNYZBnfbZCRfsKADktZAupIGZBtXxnAJPPycsZB175Obelo8UdgZDZD","token_type":"bearer","expires_in":5183245} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T02:57:30.109Z] app_access_token {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[DEBUG] - [\application\controllers\controller_auth.js : 26 | ANONYMOUS_FUNC - 2017-10-17T02:57:30.382Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"AtWfoG2zdH3"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T03:11:21.455Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:11:21.501Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:11:21.502Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:11:21.502Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:11:21.503Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:11:21.503Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:11:21.504Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:11:21.504Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T03:11:29.763Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T03:11:29.764Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T03:11:33.563Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T03:11:33.563Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T03:11:33.787Z] AQCZ-9WjNzLt968DqjAKQ0uZc45kq3lCaDDp3-n3ImDR2lcF_aqrjPKLWO5oIiOu3GHQfx8E1ZHxcO4GwI5A1MuHk80qa_JU7letw1A6OP6H5rLY87EkH5lMhiB-Chy_KdyfLMWAamDNgugqR3G942325IFA0ZDlyrz5-82dWuRfClyvABDCcxXbY20u2NTmMycyNAvsl7gWsllES0QTZqKpAEbp1p-NtFyTF7_XrpUIH7Q52y5M95M2tako2I5eqJXyKdBc8woLDITSSJS9kxunoCQsyd5LxpRXaYsCG8bUJG-OCmsi2DpNUe59IwAiz9yUYAmt0VtT4-cN4MfFGvyE 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T03:11:34.795Z] authCode {"access_token":"EAAKvBG8NjfEBAGRZBEZCBd5KZBphw2Vc2zqZBvnZBjZCSl9lf1hSk4wVUTjaApPU4uGhWW8bwdre1K9l6uvmlZCDZCI9RLZBSRlWgamE2YVHz9wZAmQ8Q1jQde0gkF5ZBw19EUZBOnnVXs74z7zSsXuRdcteXzaBZBt7qzzDHXNKg8P9e9AZDZD","token_type":"bearer","expires_in":5182400} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T03:11:34.966Z] app_access_token {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[DEBUG] - [\application\controllers\controller_auth.js : 26 | ANONYMOUS_FUNC - 2017-10-17T03:11:35.151Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"CNQ7Kaj5OF2"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T03:11:48.086Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:11:48.108Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:11:48.108Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:11:48.109Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:11:48.109Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:11:48.110Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:11:48.110Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:11:48.110Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T03:11:53.311Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T03:11:53.315Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T03:11:55.785Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T03:11:55.785Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T03:11:55.953Z] AQAZtYxYbmGj690mLflMlT3Lav196uAVNPcG5hOyG_Uf1OtruZ9N9ZVdaS-FGI8hwWMQNVyeIo4H04LYA6e0mU2zhKPhO38JsdfCO3YznO5CntVk06g4h1RSic-tJ99LaSMfraK6Kg_jlI2PHuz-dULwH3qt1HJM3mBaO05xOgoA8xL4ai4S9Ey2kvafehTuYfFI6ASCJdn9gvVZsq1bzHzOQ4UGO1cqieXmhJcECwbEllhv2Sureh_Sz-3ghmD2G-3savygPW388CcRUSi4qhFB6hV7dSVoA2svtUzuWCVRzmiALCOb7Y5NYYGwlFe5FzHMUuLa9lS1-WaNkJNDiyEh 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T03:11:56.861Z] authCode {"access_token":"EAAKvBG8NjfEBAHZB1Y94kBpaTs2hRjLT5fjSh0HpXjbYlQrBEDGdsQid4Pi6alq6n3gZBgT54rWZCWZCNeyBd3oEMFgHUTmEzGfBtuKdbTvnh03ZATPV2ehmgnufQwWKMIZBoeZBLSCcPmpMGTcdG9Pr6X35BYugW6apNnc5gPE5QZDZD","token_type":"bearer","expires_in":5182378} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T03:11:57.110Z] app_access_token {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[DEBUG] - [\application\controllers\controller_auth.js : 26 | ANONYMOUS_FUNC - 2017-10-17T03:11:57.259Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"Ay63otEZGH4"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T03:15:04.443Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:15:04.465Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:15:04.465Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:15:04.466Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:15:04.466Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:15:04.466Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:15:04.467Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T03:15:04.467Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T03:15:19.381Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T03:15:19.382Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T03:15:23.979Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T03:15:23.981Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T03:15:24.160Z] AQAy1NFIH2O6s8T50ar3bZqK8JLarxPkw2LsYI_ztXV0z9SS_693uhkcbRRUWSv8GMWOJ_tPzu8hLoyeDg7_Bq-6a8mWb9xvmJS2edZyA99m1bDIOtpiJWkmBUfXSz-aKHz5zMjRtD5T3shlazodFqjIFiygXvx7KarOsHDncnyooLdKBF5GNXw0fu8NQpgZws1zmr4R7YPd6rwW1sfxmOLV-VkgDr2pWdQur63P-9j-6MdeCzmC8VGJBDEBiP17n6KFzuPFofr6sRdPYfOhaL1pUtBwN5gmxBXRvsibFxaN_AeWL9FxMQi4LmeigFtWLSA9nGTW3U2RFeEQnHrSWh5I 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T03:15:25.124Z] authCode {"access_token":"EAAKvBG8NjfEBAJiSJ5wpvrH67VhiZCVHZCxKLypNuG2L3JDbOfFDvbqxSda4GzGbgNonQIl07QvP1TeaGxjQg4aM2ZBnYSTdYsj4yetN4Rxx8QZAoyvtUSLs7fI5vsALpo8p0BaZAZB9HKdtoU6dzUIDZAHIpZAUJFoDluiSItIgLgZDZD","token_type":"bearer","expires_in":5182170} 
+[DEBUG] - [\application\controllers\controller_auth.js : 21 | ANONYMOUS_FUNC - 2017-10-17T03:15:25.393Z] app_access_token {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[DEBUG] - [\application\controllers\controller_auth.js : 26 | ANONYMOUS_FUNC - 2017-10-17T03:15:25.670Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"Ap7MvY0wVVD"}} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:34:45.700Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:34:45.719Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:34:45.721Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:34:45.721Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:34:45.722Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:34:45.722Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:34:45.723Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:34:45.723Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:35:15.300Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:35:15.301Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:35:17.659Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:35:17.660Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T23:35:17.870Z] AQA25UwghOoifXniF25FvHYqQBIfZ3zuxIXNXXAR7sWbA7PcY7ZG9FpyEx3F7jC8AR1x9-FJX0Omr2ulYH7y0FAOncvCbrZLScb3Jpo_F3gqh2bdE2kPxUmIDq32JuCZ6NwwWgkVvQirGAVdqHLcWYiu0keYymAvsKEi7ztcYvKHpHr8G36Wdjk1wgKLWs0iLv5_f1P039Za1VrX93OhSJ96MjTeF0SxV9qfFeH-zHCPyT4yWgIFdXEDeBkDFETm3BhY2MxnOpOnS5Et0UAHMoICksrDMvo2IXc6J0piHT9b3a0c3tHhzl5aHG_PllFHTycYnLP0Wwkr_BnOdpdEEXZP 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T23:35:18.461Z] access_token undefined 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:35:20.241Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:20.257Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:20.258Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:20.259Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:20.260Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:20.261Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:20.262Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:20.262Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:35:20.288Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:35:20.289Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T23:35:20.489Z] AQA25UwghOoifXniF25FvHYqQBIfZ3zuxIXNXXAR7sWbA7PcY7ZG9FpyEx3F7jC8AR1x9-FJX0Omr2ulYH7y0FAOncvCbrZLScb3Jpo_F3gqh2bdE2kPxUmIDq32JuCZ6NwwWgkVvQirGAVdqHLcWYiu0keYymAvsKEi7ztcYvKHpHr8G36Wdjk1wgKLWs0iLv5_f1P039Za1VrX93OhSJ96MjTeF0SxV9qfFeH-zHCPyT4yWgIFdXEDeBkDFETm3BhY2MxnOpOnS5Et0UAHMoICksrDMvo2IXc6J0piHT9b3a0c3tHhzl5aHG_PllFHTycYnLP0Wwkr_BnOdpdEEXZP 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T23:35:21.073Z] access_token undefined 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:35:22.871Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:22.889Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:22.891Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:22.893Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:22.894Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:22.894Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:22.895Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:22.896Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:35:22.938Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:35:22.939Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T23:35:23.166Z] AQA25UwghOoifXniF25FvHYqQBIfZ3zuxIXNXXAR7sWbA7PcY7ZG9FpyEx3F7jC8AR1x9-FJX0Omr2ulYH7y0FAOncvCbrZLScb3Jpo_F3gqh2bdE2kPxUmIDq32JuCZ6NwwWgkVvQirGAVdqHLcWYiu0keYymAvsKEi7ztcYvKHpHr8G36Wdjk1wgKLWs0iLv5_f1P039Za1VrX93OhSJ96MjTeF0SxV9qfFeH-zHCPyT4yWgIFdXEDeBkDFETm3BhY2MxnOpOnS5Et0UAHMoICksrDMvo2IXc6J0piHT9b3a0c3tHhzl5aHG_PllFHTycYnLP0Wwkr_BnOdpdEEXZP 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T23:35:23.787Z] access_token undefined 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:35:25.610Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:25.631Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:25.632Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:25.633Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:25.634Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:25.635Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:25.636Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:25.637Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:35:28.832Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:35:28.834Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T23:35:29.049Z] AQA25UwghOoifXniF25FvHYqQBIfZ3zuxIXNXXAR7sWbA7PcY7ZG9FpyEx3F7jC8AR1x9-FJX0Omr2ulYH7y0FAOncvCbrZLScb3Jpo_F3gqh2bdE2kPxUmIDq32JuCZ6NwwWgkVvQirGAVdqHLcWYiu0keYymAvsKEi7ztcYvKHpHr8G36Wdjk1wgKLWs0iLv5_f1P039Za1VrX93OhSJ96MjTeF0SxV9qfFeH-zHCPyT4yWgIFdXEDeBkDFETm3BhY2MxnOpOnS5Et0UAHMoICksrDMvo2IXc6J0piHT9b3a0c3tHhzl5aHG_PllFHTycYnLP0Wwkr_BnOdpdEEXZP 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T23:35:29.745Z] access_token undefined 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:35:31.457Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:31.474Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:31.476Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:31.477Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:31.478Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:31.479Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:31.480Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:35:31.480Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:35:41.605Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:35:41.606Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:36:01.275Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:01.295Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:01.296Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:01.297Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:01.298Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:01.299Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:01.300Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:01.301Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:36:06.756Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:36:06.759Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T23:36:06.984Z] code AQBSKA3kklijnBC8-NODK8XTEfp7ixGjPhS8cOlvW_PRIH9i0_6NAPFoMinitkHQF8n1BFAm3pw3FFwcBDCCSL06oDniwyCuY9nNOnnTQSa44r-5Eb2jUaCvyMc2r8nihVVYXy10yFm1qox9R9yRX_pDwSTfdQN1xGgg24158Jsr_USgxilTLyvPn5oqnkJlcV5O3MpTm-TcI2NBlCnrKvoOz3vMK1m-DhaIZRL0Et8yL5JgdgPhKfBCwtKUP5xYnYRidZ2HJh8T8WUwu7DIJ_LXjjibX2fBVCQCtBbzrmjBSfUmBHe45Bi2KIXbJJJSio9gf9WM6xpj6O1Rog-NxkxP 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T23:36:07.761Z] access_token undefined 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:36:09.528Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:09.560Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:09.561Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:09.562Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:09.563Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:09.564Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:09.565Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:09.566Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:36:09.574Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:36:09.575Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T23:36:09.795Z] code AQBSKA3kklijnBC8-NODK8XTEfp7ixGjPhS8cOlvW_PRIH9i0_6NAPFoMinitkHQF8n1BFAm3pw3FFwcBDCCSL06oDniwyCuY9nNOnnTQSa44r-5Eb2jUaCvyMc2r8nihVVYXy10yFm1qox9R9yRX_pDwSTfdQN1xGgg24158Jsr_USgxilTLyvPn5oqnkJlcV5O3MpTm-TcI2NBlCnrKvoOz3vMK1m-DhaIZRL0Et8yL5JgdgPhKfBCwtKUP5xYnYRidZ2HJh8T8WUwu7DIJ_LXjjibX2fBVCQCtBbzrmjBSfUmBHe45Bi2KIXbJJJSio9gf9WM6xpj6O1Rog-NxkxP 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T23:36:10.511Z] access_token undefined 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:36:12.278Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:12.300Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:12.301Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:12.302Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:12.304Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:12.305Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:12.306Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:12.307Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:36:12.324Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:36:12.326Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T23:36:12.534Z] code AQBSKA3kklijnBC8-NODK8XTEfp7ixGjPhS8cOlvW_PRIH9i0_6NAPFoMinitkHQF8n1BFAm3pw3FFwcBDCCSL06oDniwyCuY9nNOnnTQSa44r-5Eb2jUaCvyMc2r8nihVVYXy10yFm1qox9R9yRX_pDwSTfdQN1xGgg24158Jsr_USgxilTLyvPn5oqnkJlcV5O3MpTm-TcI2NBlCnrKvoOz3vMK1m-DhaIZRL0Et8yL5JgdgPhKfBCwtKUP5xYnYRidZ2HJh8T8WUwu7DIJ_LXjjibX2fBVCQCtBbzrmjBSfUmBHe45Bi2KIXbJJJSio9gf9WM6xpj6O1Rog-NxkxP 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T23:36:13.202Z] access_token undefined 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:36:14.972Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:14.995Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:14.997Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:14.998Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:14.999Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:15.000Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:15.001Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:15.001Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:36:18.284Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:36:18.285Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T23:36:18.495Z] code AQBSKA3kklijnBC8-NODK8XTEfp7ixGjPhS8cOlvW_PRIH9i0_6NAPFoMinitkHQF8n1BFAm3pw3FFwcBDCCSL06oDniwyCuY9nNOnnTQSa44r-5Eb2jUaCvyMc2r8nihVVYXy10yFm1qox9R9yRX_pDwSTfdQN1xGgg24158Jsr_USgxilTLyvPn5oqnkJlcV5O3MpTm-TcI2NBlCnrKvoOz3vMK1m-DhaIZRL0Et8yL5JgdgPhKfBCwtKUP5xYnYRidZ2HJh8T8WUwu7DIJ_LXjjibX2fBVCQCtBbzrmjBSfUmBHe45Bi2KIXbJJJSio9gf9WM6xpj6O1Rog-NxkxP 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T23:36:19.171Z] access_token undefined 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:36:20.889Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:20.904Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:20.905Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:20.906Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:20.906Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:20.907Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:20.907Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:20.908Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:36:49.238Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:36:49.240Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T23:36:49.453Z] code AQBSKA3kklijnBC8-NODK8XTEfp7ixGjPhS8cOlvW_PRIH9i0_6NAPFoMinitkHQF8n1BFAm3pw3FFwcBDCCSL06oDniwyCuY9nNOnnTQSa44r-5Eb2jUaCvyMc2r8nihVVYXy10yFm1qox9R9yRX_pDwSTfdQN1xGgg24158Jsr_USgxilTLyvPn5oqnkJlcV5O3MpTm-TcI2NBlCnrKvoOz3vMK1m-DhaIZRL0Et8yL5JgdgPhKfBCwtKUP5xYnYRidZ2HJh8T8WUwu7DIJ_LXjjibX2fBVCQCtBbzrmjBSfUmBHe45Bi2KIXbJJJSio9gf9WM6xpj6O1Rog-NxkxP 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T23:36:50.163Z] access_token undefined 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:36:51.898Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:51.915Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:51.916Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:51.916Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:51.917Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:51.918Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:51.919Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:36:51.920Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:37:19.962Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:37:19.982Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:37:19.983Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:37:19.985Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:37:19.986Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:37:19.987Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:37:19.987Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:37:19.988Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:37:20.747Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:37:20.748Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:37:22.462Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:37:22.464Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T23:37:22.654Z] code AQCcVSgqqBtBtfnOUh7M6NOFMobJZvNKKgCAcZrLSE6Icv4v6-XpQJeY1l9pDMYbvCyJDCd8ebdtk_XGlc0SkzuiqOVxjYBs1Khl35W2jlBAc7fzS-tx6gtAGChbiXJXdV7_C9ANxe8S8nVuZYkYOY8FDy-ddG8Bnyo8dj2d7gonrTQ2EmDIJWE1eXOYPhoQtnzBCMovbrDMxbSGDKX6N8LI4u1sBenKKyBnyd9acgJhGN9gJsqOTUmQOq7hQbsO4_3-yb5LPvQWFnLkeLN42MdM9bm6bww416e0akRLwaRSJb0Q3m12f2bKZ7iUh1fVI8f1E6A2j2TW5MIa9CS1ZKyk 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:37:42.486Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:37:42.504Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:37:42.505Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:37:42.506Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:37:42.507Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:37:42.507Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:37:42.508Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:37:42.508Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:37:43.605Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:37:43.608Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T23:37:43.854Z] code AQD5gbnK0PNDqSpnUuAFGaiP_ZwkHOW1HOCCZqNf4LeaCn1eyQHY63MKtK47-Bx3kjaajvh1T-CClxyb_oI2tXq0oxC6GRDbPzIWmfToEwCrc581-XGvZzekU5E3ZvoEHDR_L-C5H5kzYG-5egRNnRGK4s6__wX2y6BZ3F4uJV-S4gy0U5rzWBgjTg2t3kD91gpmMqpav54EoRuE7BjP3_j46Wz5Pgi1oKYbMHuVQXcPTAMbckLtb2f1W1s-yMMe6U9fF4lP6-TjAJtTUv4DCMIPq6UrIntC2VZKHUiy9mv4-EppCeuq1ASFfllMp651Bx357-aMZIpSc5xNLrfS7oT1 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T23:37:44.567Z] access_token undefined 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:38:17.422Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:17.437Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:17.439Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:17.440Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:17.441Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:17.442Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:17.443Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:17.443Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:38:20.397Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:20.418Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:20.419Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:20.420Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:20.420Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:20.421Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:20.422Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:20.422Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:38:41.519Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:41.537Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:41.539Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:41.542Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:41.543Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:41.544Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:41.545Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:38:41.546Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:38:43.827Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:38:43.829Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:38:46.430Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:38:46.432Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T23:38:46.639Z] code AQBZc6KGUv-Lnw3ODLfP6s5dQ72tsZEJEd1Tn3zz2rtCdgiUj7xmkHs2PwATx_AOBArfyr03YCArwRvNBwuF83HCwfof7JIkghHHkQpmzVldXIH9oGDF3qSb-Bbq2J-z4Glul_SXjbbx1k8AIrWtg_PTCUiew6ucCAgQqPmbQOvSRam0436M-Y306z1ef7VIZ2MM0wQxhBUeZN1gsWFyWTwQZlD16udVJhzmYQ6_7vCcIXZNE08odmdPBrU9Gflp8Q4SQczlLRMwJIwErs9IEwXMtf8bNEpPNIVlUw18P9sLyJ77Gy0oHDi0ChgbwaFS7SyJoHmPf3g0cq-P5YGNaetk 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T23:38:47.253Z] https://graph.facebook.com/v2.10/oauth/access_token?client_id=755383531310577&redirect_uri=http://localhost:3000/authRedirect&client_secret=3061f142ac7873dfd34a2359fa670aa9&code=AQBZc6KGUv-Lnw3ODLfP6s5dQ72tsZEJEd1Tn3zz2rtCdgiUj7xmkHs2PwATx_AOBArfyr03YCArwRvNBwuF83HCwfof7JIkghHHkQpmzVldXIH9oGDF3qSb-Bbq2J-z4Glul_SXjbbx1k8AIrWtg_PTCUiew6ucCAgQqPmbQOvSRam0436M-Y306z1ef7VIZ2MM0wQxhBUeZN1gsWFyWTwQZlD16udVJhzmYQ6_7vCcIXZNE08odmdPBrU9Gflp8Q4SQczlLRMwJIwErs9IEwXMtf8bNEpPNIVlUw18P9sLyJ77Gy0oHDi0ChgbwaFS7SyJoHmPf3g0cq-P5YGNaetk 
+[DEBUG] - [\application\controllers\controller_auth.js : 19 | ANONYMOUS_FUNC - 2017-10-17T23:38:47.306Z] access_token undefined 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:39:45.476Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:39:45.492Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:39:45.493Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:39:45.494Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:39:45.494Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:39:45.495Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:39:45.495Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:39:45.496Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:43:13.484Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:43:13.485Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:43:16.327Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:43:16.328Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:43:17.187Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:43:17.188Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:43:18.508Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:43:18.511Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 9 | ANONYMOUS_FUNC - 2017-10-17T23:43:18.722Z] code AQB5FKZhIATFIn80xfEyJdX-Bx1ew0Ri2g8UOvW09YF2tBzfd1lneAKQ4pAHufjyrCPsmXdHJXa6i09G5Z37QxKudXnwjxJkQHNuf2EGfyNylmowRWOdPFOjKUTPgM1a8rruaZSBFCsu_iiKFlPmjHZE-0m6uJSANFcJqYHe7yhwZQze-u0h62UgUgALOWCS7FBjf4aqVZrc9HHz5zxlOW7_uc0kOnL7lYh4pguPF_cBFyGOPIW78ubxTdT5yXdzFmOzoqp1ukVkFkPIDdD2VOrf2A98kaqHu-Q4HkWRbEEJ8nBagYDrwbgbZIK6O0xvvNzuUkPAXjvj9yoV3MCaQ4sH 
+[DEBUG] - [\application\controllers\controller_auth.js : 16 | ANONYMOUS_FUNC - 2017-10-17T23:43:19.342Z] access_token undefined 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:44:32.318Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:44:32.333Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:44:32.334Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:44:32.335Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:44:32.336Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:44:32.337Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:44:32.337Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:44:32.338Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:44:34.933Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:44:34.935Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:44:35.769Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:44:35.773Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:44:36.169Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:44:36.171Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:44:36.453Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:44:36.455Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:44:36.665Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:44:36.674Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:44:36.852Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:44:36.854Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:44:37.031Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:44:37.032Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:44:37.214Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:44:37.215Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:44:37.390Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:44:37.391Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:44:37.565Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:44:37.567Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:44:37.733Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:44:37.735Z] REQUEST PATH : /auth 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:44:38.648Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:44:38.651Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 11 | ANONYMOUS_FUNC - 2017-10-17T23:44:38.841Z] code AQCp10Mo8xEuSoedbX05aZ55qPBTkI4HKzdDRjOgFsnByKl9o876aYyVOvNdTWLp8NOiDv7iTfyyTEzIAYdKSKX629mLCay_Ff3dDJ2izgHUB4K7Egd7tH3PDcKHmqu-Wldd8TI6VC1r2bjTIJkgpGwvGEG_eB0G0vRrq_Y0gHPrLxv_FqQPOvLLxm58ZIdG39pjpGv05y0Zh5bWerLeDl0lJuYPY0orTovAIw2lLqlJJ9-gVWv-lwI0v-PWObCemuP1uZiYb1Q7kL79Ojia9xoPxHxiXuNvVHtrw8Z2yWiByjuR2WUpsj1R0sYiKIWZ1fhCWr8N_19euN02tqC-uJnH 
+[DEBUG] - [\application\controllers\controller_auth.js : 18 | ANONYMOUS_FUNC - 2017-10-17T23:44:39.699Z] access_token {"access_token":"EAAKvBG8NjfEBAFKxYbYZA8ONVkCmoD5n0W1hTRZA9RkcLZALnlt1Ty2nGqgWsrF23WH6utAFTzzPwKdvQ9ZA1hIjIs8pnHLVn6OZAq9bLU8MvbWfidZCZCWTTFBZBqO5cEee1TNvlTyo3RqtYTYrhTvdJa6ZCVVDVaQRZCtpjuxZCh86QZDZD","token_type":"bearer","expires_in":5108414} 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-17T23:44:52.449Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:44:52.469Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:44:52.470Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:44:52.472Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:44:52.474Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:44:52.475Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:44:52.477Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-17T23:44:52.478Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-17T23:44:53.776Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-17T23:44:53.778Z] REQUEST PATH : /authRedirect 
+[DEBUG] - [\application\controllers\controller_auth.js : 11 | ANONYMOUS_FUNC - 2017-10-17T23:44:54.010Z] code AQC3JR0H_SZAaubwC2wv12wKxQZjJnK7NcYJg3nr-guoD7t_QlT76nfFoDWYy2YWcCD-PsGsU6ep02XvP2qzdoZo1ybVl7QkNJpHCBuM_OEnqXKZ98VJHgNuUdOa28Vs5Wz8bZtUeFYU_12iAGYOv8Y-mGLuo3lb92mlZFY2q8SXwRloMcEF3R8R1ni9X1T4h-fqB5RWaE16qpDg4FurAvSZmsYf41Lr9CXtbVSssj2r_YpVIZ3xF8QgCpTNZOba8qjPe0Q2bN4NS4GHrS1h02jAPRQS6WSTnahQ3gGRNaoIfk_8IdK5JUJbqPNPbVnLaI_npymm0aS6_DJ_Mrvswlzf 
+[DEBUG] - [\application\controllers\controller_auth.js : 18 | ANONYMOUS_FUNC - 2017-10-17T23:44:54.909Z] access_token {"access_token":"EAAKvBG8NjfEBAA2wb4iRtqoTSug1SHeEuZAJDAlJ0Wn1zhM8CzxeQY6IK0gDp8hLIIrS7VpbmdEi6cXw92kBVHxS4s4RLjV5hZBpnQsZAjafiSaPagAFqVjM78t6TRfjT17fZAKe0JnSks6NtlaDkXDhvRz1Jg4arRfxZBDZCuMwZDZD","token_type":"bearer","expires_in":5108399} 
+[DEBUG] - [\application\controllers\controller_auth.js : 23 | ANONYMOUS_FUNC - 2017-10-17T23:44:55.094Z] app_access_token {"access_token":"755383531310577|2823mwkHz1bnHz6siJyiby6n2Rs","token_type":"bearer"} 
+[DEBUG] - [\application\controllers\controller_auth.js : 28 | ANONYMOUS_FUNC - 2017-10-17T23:44:55.275Z] {"error":{"message":"Invalid OAuth access token.","type":"OAuthException","code":190,"fbtrace_id":"CBsqQcIadYH"}} 

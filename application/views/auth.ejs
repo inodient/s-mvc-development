@@ -3,14 +3,70 @@
 <head>
   <meta charset="utf-8">
 
+  <meta property="og:url"           content="http://localhost:3000" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Your Website Title" />
+  <meta property="og:description"   content="Your description" />
+  <meta property="og:image"         content="http://localhost:3000/favicon.ico" />
+
   <script>
   // app secret code : 3061f142ac7873dfd34a2359fa670aa9
     function fbLogin(){
-      location.href = "https://www.facebook.com/v2.10/dialog/oauth?client_id=755383531310577&redirect_uri=http://localhost:3000/authRedirect";
+      location.href = "https://www.facebook.com/v2.10/dialog/oauth?client_id=755383531310577&redirect_uri=http://localhost:3000/authRedirect&auth_type=rerequest&scope=publish_actions";
+      //window.open( "https://www.facebook.com/v2.10/dialog/oauth?client_id=755383531310577&redirect_uri=http://localhost:3000/authRedirect&auth_type=rerequest&scope=publish_actions" );
+    }
+    
+    function redirectMain(){
+    	var loginStatus = "<%- loginStatus%>";
+    	
+		if( loginStatus == "SUCCESS" ){
+			window.parent.location.href ="http://localhost:3000/";
+		} else if( loginStatus = "ERROR" ){
+			document.getElementById( "msg" ).text = "ERROR";
+		}
+    }
+    
+    function requestFeed(){
+    	location.href = "https://www.facebook.com/dialog/feed?app_id=755383531310577&display=popup&amp;caption=An%20example%20caption&link=http://imgnews.naver.net/image/076/2017/10/18/2017101901001253400099581_20171018133052141.jpg?type=w540&redirect_uri=http://localhost:3000/authRedirect";
     }
   </script>
 </head>
-<body>
+<body onload="redirectMain()">
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.10&appId=755383531310577";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
   <button id="btn_fbLogin" onclick="fbLogin()">Facebook Login</button>
+  <p id="msg"><%- loginStatus %></p>
+  
+  <div class="fb-share-button" 
+  	data-href="http://www.naver.com" 
+  	data-layout="button_count" 
+  	data-size="large" 
+  	data-mobile-iframe="true">
+	<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A3000%2F&amp;src=sdkpreparse">공유하기</a>
+  </div>
+  
+  <button onclick="requestFeed()">Feed</button>
+  
+  
+  
+  <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=755383531310577" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </body>
 </html>
