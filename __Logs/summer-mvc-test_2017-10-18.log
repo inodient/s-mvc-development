@@ -3933,3 +3933,13 @@ assertPath (path.js:7:11),Object.join (path.js:468:7),C:\__Repo.Workspace\12. IN
 [INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-18T07:35:10.372Z] Initializing : Set Exit Handler 
 [INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-18T07:35:10.391Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
 [INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-18T07:35:10.393Z] REQUEST PATH : /comment 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 48 |   logger.info - 2017-10-18T23:25:46.843Z] Listen Port : 3000 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-18T23:25:46.862Z] Initializing : Annotation Parsing Succeed 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-18T23:25:46.863Z] Initializing : Set View Engine 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-18T23:25:46.863Z] Initializing : Set Body Parser 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-18T23:25:46.864Z] Initializing : Set Connection Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-18T23:25:46.864Z] Initializing : Set File Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-18T23:25:46.864Z] Initializing : Set MySql Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 27 | ANONYMOUS_FUNC - 2017-10-18T23:25:46.864Z] Initializing : Set Exit Handler 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 57 | ANONYMOUS_FUNC - 2017-10-18T23:25:53.086Z] ACCEPTED-LANGUAGE : ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4 
+[INFO] - [\node_modules\summer-mvc\express_was.js : 58 | ANONYMOUS_FUNC - 2017-10-18T23:25:53.086Z] REQUEST PATH : / 

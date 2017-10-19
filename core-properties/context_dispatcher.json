@@ -95,6 +95,22 @@
             "controlFunction": "control",
             "viewPath": "",
             "view": "comment.ejs"
+        },
+        {
+            "id": "mssql",
+            "path": "/mssql",
+            "controllerJS": "controller_mssql.js",
+            "controlFunction": "control",
+            "viewPath": "",
+            "view": "mssql.ejs"
+        },
+        {
+            "id": "sendmail",
+            "path": "/sendmail",
+            "controllerJS": "controller_smtp.js",
+            "controlFunction": "control",
+            "viewPath": "",
+            "view": "smtp.ejs"
         }
     ],
     "POST": [

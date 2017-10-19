@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/inodient/s-mvc-development#readme",
   "dependencies": {
+    "mssql": "^4.1.0",
+    "nodemailer-smtp-transport": "^2.7.4",
     "request": "^2.83.0"
   }
 }

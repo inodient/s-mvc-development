@@ -7,6 +7,6 @@
 */
 exports.control = function( req, res ){
   return new Promise( function(resolve, reject){
-    resolve( {} );
+	  resolve( {} );
   } );
 }
